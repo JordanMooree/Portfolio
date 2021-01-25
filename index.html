@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan Moore Portfolio Website</title>
+    <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"-->
+    <link rel="stylesheet" href="./stylesheet/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/72a6d5cb26.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+  <header>
+      <div class="logo">
+          <img src="./imgs/Python.svg.png" alt=""> 
+      </div>
+
+      <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+      </button>
+
+      <nav class="nav">
+          <ul class="nav__list">
+              <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+              <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+              <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+              <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+          </ul>
+      </nav>
+  </header>
+    <!-- Introduction-->
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I'm <strong>Jordan.</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Front-end dev</p>
+        <img src="./imgs/IMG_3769.jpg" alt="" class="intro__img">
+    </section>
+
+    <!--Services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services" style="display: inline-block;">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <i class="fas fa-layer-group icons"></i>
+                <h3>Website Development </h3>
+                <p>Websites built with detail.</p>
+            </div> <!-- / service-->
+            <div class="service">
+                <i class="fab fa-google-play icons"></i>
+                <h3>App Development</h3>
+                <p>Android.</p>
+            </div> <!-- / service-->
+            <div class="service">
+                <i class="fas fa-robot icons"></i>
+                <h3>Artificial Intelligence</h3>
+                <p>Say "Hi" to your intelligent agent.</p>
+            </div> <!-- / service-->
+        </div>
+        <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!-- About me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Software Engineer based out of Chicago</p>
+            <div class="about-me__body">
+                <p>I'm</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, optio temporibus. Animi, ad earum, molestias omnis voluptates harum alias consectetur, dolorum explicabo quo numquam? Repellat perferendis consequuntur accusantium quo omnis?</p>
+            </div>
+            <img src="./imgs/second-photo.jpg" alt="" class="about-me__img">
+        </section>
+
+        <!--My Work-->
+        <section class="my-work" id="work">
+            <h2 class="section_title">My Work</h2>
+            <p class="section__subtitile">A selection of my range of projects</p>
+
+            <div class="portfolio">
+                <!--Portfolio item 01-->
+                
+                <a href="https://jordanmooree.github.io/tom-jerry-website/" target="_blank" class="portfolio__item" >
+                    
+                    <img src="./imgs/display-picture1.PNG" alt="" class="portfolio__img">
+                    
+                </a>
+                <!--Portfolio item 02-->
+                <a href="#" class="portfolio__item">
+                    <img src="./imgs/business-2717063_1920.jpg" alt="" class="portfolio__img">
+                </a>
+                <!--Portfolio item 03-->
+                <a href="#" class="portfolio__item">
+                    <img src="./imgs/business-2717063_1920.jpg" alt="" class="portfolio__img">
+                </a>
+                <!--Portfolio item 04-->
+                <a href="#" class="portfolio__item">
+                    <img src="./imgs/business-2717063_1920.jpg" alt="" class="portfolio__img">
+                </a>
+                <!--Portfolio item 05-->
+                <a href="#" class="portfolio__item">
+                    <img src="./imgs/business-2717063_1920.jpg" alt="" class="portfolio__img">
+                </a>
+                <!--Portfolio item 06-->
+                <a href="#" class="portfolio__item">
+                    <img src="./imgs/business-2717063_1920.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+    <!--Portfolio items that you must use for your page 
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Jordan Moore</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Front-end dev</p>
+        <img src="/imgs/IMG_3769.jpg" alt="" class="intro__img">
+    </section>
+    here: https://youtu.be/_xkSvufmjEs?t=7269
+    -->
+
+        <!-- Footer-->
+        <footer class="footer">
+            <a href="mailto:jordanmooree3@gmail.com" class="footer-link">jordanmooree3@gmail.com</a>
+            <ul>
+                <li class="social-list__item"><a class="social-list__link" href="#"><i class="fab fa-github"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="#"><i class="fab fa-linkedin" ></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="#"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </footer>
+    <script src="https://kit.fontawesome.com/72a6d5cb26.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
