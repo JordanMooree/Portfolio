@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jordan Moore Portfolio Websites</title>
+    <title>Jordan Moore | Portfolio</title>
     <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"-->
     <link rel="stylesheet" href="./stylesheet/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/72a6d5cb26.js" crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 </head>
 <body>
   <header>
@@ -35,7 +35,7 @@
         <h1 class="section__title section__title--intro">
             Hi, I'm <strong>Jordan.</strong>
         </h1>
-        <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+        <p class="section__subtitle section__subtitle--intro">CS Student</p>
         <img src="./imgs/IMG_3769.jpg" alt="" class="intro__img">
     </section>
 
@@ -53,11 +53,13 @@
                 <h3>App Development</h3>
                 <p>Android.</p>
             </div> <!-- / service-->
+            <!--Add this when I have my chat bot
             <div class="service">
                 <i class="fas fa-robot icons"></i>
                 <h3>Artificial Intelligence</h3>
                 <p>Say "Hi" to your intelligent agent.</p>
-            </div> <!-- / service-->
+            </div>  / service-->
+        
         </div>
         <a href="#work" class="btn">My Work</a>
         </section>
@@ -65,10 +67,40 @@
         <!-- About me-->
         <section class="about-me" id="about">
             <h2 class="section__title section__title--about">Who I am</h2>
-            <p class="section__subtitle section__subtitle--about">Software Engineer based out of Chicago</p>
+            <p class="section__subtitle section__subtitle--about">Computer Science Student</p>
             <div class="about-me__body">
-                <p>I'm</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, optio temporibus. Animi, ad earum, molestias omnis voluptates harum alias consectetur, dolorum explicabo quo numquam? Repellat perferendis consequuntur accusantium quo omnis?</p>
+                <h3>Student journey</h3>
+                <p>I'm a junior Computer Science Student at <a href="https://www.neiu.edu/" target="_blank">Northeastern Illinois University</a>. </p>
+                <p>I have experience in creating programs and algorithms in the following high-level languages:
+                </p>
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                </ul>
+                <p>I also have experience in the following front-end programming languages(<i>along with its frameworks/preprocessors</i>): </p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <ul>
+                        <li>SCSS/SASS</li>
+                        <li>LESS</li>
+                    </ul>
+                    <li>JavaScript</li>
+                    <ul>
+                        <li>React</li>
+                    </ul>
+                </ul>
+                <h3>Why I enjoy programming</h3>
+                <p>Every project I embark on has a purpose, end-goal, and seeks to solve a real-world problem. I'm highly motivated, hungry for knowledge, and always seeking to help make the world a better place through what I can offer. </p>
+                <p>I constantly challenge myself and look to stretch my current capabilities. Every day I look to learn something new and inventively think of ways of how I can apply that information to situation/challenge I see myself facing.</p> 
+                <h3>My Philosophy</h3>
+                <p>Any challenges I face have left me to think of pain and hardship as a necessity to achieving anything significant. I apply my stoic way of thinking to all my work/projects and general approach to how I get things done. If I don't know something, I'm willing to admit it and then take initiative to learn it.</p>
+                <figure>
+                    <blockquote cite="https://www.huxley.net/bnw/four.html">
+                        <p><i>If I have seen further than others, it is by standing upon the shoulders of giants.</i></p>
+                    </blockquote>
+                    <figcaption>—Isaac Newton, <cite>John of Salisbury</cite></figcaption>
+                </figure>
             </div>
             <img src="./imgs/second-photo.jpg" alt="" class="about-me__img">
         </section>
@@ -76,38 +108,23 @@
         <!--My Work-->
         <section class="my-work" id="work">
             <h2 class="section_title">My Work</h2>
-            <p class="section__subtitile">A selection of my range of projects</p>
+            <p class="section__subtitile">A selection of my projects</p>
 
             <div class="portfolio">
-                <!--Portfolio item 01-->
+                <!--Portfolio item 01 | link:https://jordanmooree.github.io/TomJerrysWebsite/"-->
                 
-                <a href="https://jordanmooree.github.io/TomJerrysWebsite/"  target="_blank" class="portfolio__item" >
+                <a href="./portfolio-items/portfolio-item1.html" class="portfolio__item" >
                     
                     <img src="./imgs/tom-jerrys.PNG" alt="" class="portfolio__img" > 
                     
                    
                 </a>
                 <!--Portfolio item 02-->
-                <a href="https://nervous-wiles-6ed405.netlify.app/" target="_blank" class="portfolio__item">
-                    <img src="./imgs/mortage-calculator.PNG" alt="" class="portfolio__img">
-                </a>
-                <!--Portfolio item 03-->
                 <a href="./imgs/AndroidAppDemo_Shortcut.mp4" target="_blank" class="portfolio__item">
                     <img src="./imgs/GPS.PNG" alt="" class="portfolio__img">
                     
                 </a>
-                <!--Portfolio item 04-->
-                <a href="#" class="portfolio__item">
-                    <img src="./imgs/business-2717063_1920.jpg" alt="" class="portfolio__img">
-                </a>
-                <!--Portfolio item 05-->
-                <a href="#" class="portfolio__item">
-                    <img src="./imgs/business-2717063_1920.jpg" alt="" class="portfolio__img">
-                </a>
-                <!--Portfolio item 06-->
-                <a href="#" class="portfolio__item">
-                    <img src="./imgs/business-2717063_1920.jpg" alt="" class="portfolio__img">
-                </a>
+               
             </div>
         </section>
     <!--Portfolio items that you must use for your page 
