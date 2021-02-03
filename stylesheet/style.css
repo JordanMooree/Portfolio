@@ -505,7 +505,7 @@ ul {
 
 .display-items a {
     font-size: 32px;
-    padding: 20px 100px;
+    padding: 20px 50px;
     background-color: var(--clr-accent);
     border-radius: 25px;
     text-decoration: none;
@@ -523,6 +523,7 @@ ul {
         
     }
 }
+
 
 .tag {
     font-size: 16px;
